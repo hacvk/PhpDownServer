@@ -1,0 +1,17 @@
+自己修改目录 如E:\loc
+
+cd /d E:\loc
+
+php\php.exe -c php\php.ini -S 0.0.0.0:80 -t public
+
+
+
+cd /d E:\loc
+
+php\php.exe -c php\php.ini -m | findstr sqlite
+
+
+
+cd /d E:\loc
+
+php\php.exe -c php\php.ini -d display_errors=1 -S 0.0.0.0:80 -t public
